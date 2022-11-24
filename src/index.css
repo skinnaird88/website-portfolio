@@ -1,0 +1,12 @@
+@font-face{
+    font-family:'blackjack';
+    src: url("../public/blackjack-font.ttf")
+}
+@font-face{
+    font-family:'fuzzy';
+    src: url("../public/FuzzyBubbles-Regular.ttf")
+}
+@font-face{
+    font-family:'fuzzy-bold';
+    src: url("../public/FuzzyBubbles-Bold.ttf")
+}
