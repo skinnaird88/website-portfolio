@@ -9,6 +9,7 @@ const Form = () => {
       <input name='name' placeholder="Name" type='text'></input>
       <input name='email' placeholder="Email" type='email'></input>
       <textarea placeholder="Message"></textarea>
+      <button type='submit'>Submit</button>
     </form>
     </>
   )
