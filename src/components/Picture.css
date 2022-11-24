@@ -1,0 +1,8 @@
+.profile-pic{
+    margin-top: 175px;
+    border-radius: 25px;
+}
+.picture-container{
+    display: flex;
+    justify-content: center;
+}
