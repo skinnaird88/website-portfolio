@@ -7,10 +7,10 @@ const NavBar = () => {
     <nav>
       <h1>NavBar</h1>
       <a href='https://github.com/skinnaird88'>
-        <img src='../../github.png'></img>
+        <img src='../../github.png' className='link-icon'></img>
       </a>
       <a href='https://www.linkedin.com/in/stephen-kinnaird-a9b713112/'>
-        <img src='../../linkedin.png'></img>
+        <img src='../../linkedin.png' className='link-icon'></img>
       </a>
 
     </nav>

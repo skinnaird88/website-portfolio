@@ -11,8 +11,8 @@ function App() {
   return (
     <div className="App">
       <NavBar/>
-      <Picture/>
-      {/* <img src='./public/code-chef.png' alt='profile image'></img> */}
+      {/* <Picture/> */}
+      <img src='./public/code-chef.png' alt='profile image'></img>
       <Bio/>
       <Portfolio/>
       <Form/>
