@@ -6,7 +6,9 @@ const Portfolio = () => {
     <>
     <h1>Portfolio</h1>
     <div className='portfolio-grid'>
-      <p>The xG Map</p>
+      <a href='https://github.com/skinnaird88/The-xG-Map'>
+        <img src='../../public/xg-map.png' className='project-icon'></img>
+        </a>
       <p>Habit Trackers</p>
       <p>Spending Tracker</p>
     </div>
