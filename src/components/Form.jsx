@@ -4,18 +4,24 @@ import emailjs from '@emailjs/browser'
 
 const Form = () => {
 
+
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs.sendForm('service_mht1x7o', 'template_y3acv7e', form.current, '3o7zwsZbWjwinoxxw')
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
+      .then(
+        () => {
+          alert("Message successfully sent. Thank you!");
+          window.location.reload();
+        },
+        () => {
+          alert("Message failed to send. Please try again.");
+        }
+      );
   };
+
 
   return (
     <div className='upper-container'>
