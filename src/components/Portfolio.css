@@ -3,11 +3,20 @@
     grid-template-columns: 33% 33% 33%;
     /* grid-column-start: 2; */
     font-family: 'fuzzy';
+    padding-left: 100px;
+    background-color: #C17817;
+    border-radius: 25px;
 }
 
 .project-icon{
     max-height: 21em;
     width: auto;
     border-radius: 25px;
-    border: 5px solid #C17817;
+    border: 5px solid #33658A;
+    margin-top: 2rem;;
+}
+
+.project-label{
+    align-self: center;
+    margin-left: 25%;
 }
