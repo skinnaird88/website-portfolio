@@ -7,7 +7,8 @@
 }
 
 .bio-container{
-    width: 75rem;
+    max-width: 75rem;
+    min-width: none;
     padding: 2rem;
     height: auto;
     border-radius: 25px;
