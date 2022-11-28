@@ -3,8 +3,16 @@ body{
 }
 
 #header{
+    margin-top: 1.5rem;
     font-family:'fuzzy-bold';
     font-size: 3rem;
+    text-align: center;
+    border-radius: 25px;
+    background-color: #C17817;
+    border: 5px solid #33658A;
+    color: #2F4858;
+    min-height: 3rem;
+    max-height: auto;
 }
 
 
