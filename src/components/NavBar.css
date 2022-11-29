@@ -8,13 +8,15 @@ nav{
     align-items: center;
     border-radius: 25px;
     border: 5px solid #86BBD8;
-    
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, .3);
 
 }
 img{
     background-color: #B89E97;
     border-radius: 25px;
     border: 5px solid #86BBD8;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, .3);
+
 
 }
 

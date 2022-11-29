@@ -1,8 +1,6 @@
 .portfolio-grid{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    /* 33% 33% 33%; */
-    /* grid-column-start: 2; */
     font-family: 'fuzzy';
     padding-left: 100px;
     background-color: #C17817;
@@ -17,9 +15,6 @@
     border: 5px solid #33658A;
     box-shadow: 0 0 5px 2px rgba(0, 0, 0, .3);
     margin-top: 2rem;
-    transform: perspective(1000px) rotateY(var(--rotate-y, 0)) translateY(var(--translate-y,0));
-    transform-style: preserve-3d;
-    transition: 250ms;
 }
 
 .project-label{
