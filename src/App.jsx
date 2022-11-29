@@ -16,7 +16,9 @@ function App() {
       <Bio/>
       <Portfolio/>
       <Form/>
+      <footer>
       <section id="signature">Stephen Kinnaird</section>
+      </footer>
     </div>
   )
 }

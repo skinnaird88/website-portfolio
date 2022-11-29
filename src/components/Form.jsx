@@ -25,7 +25,7 @@ const Form = () => {
 
   return (
     <div className='upper-container'>
-    <h1>Form</h1>
+    <p className='form-header'><u>Contact form</u></p>
     <form className='form-container' ref={form} onSubmit={sendEmail}>
       <input name='user_name' placeholder="Name" type='text' className='form-item'></input>
       <input name='user_email' placeholder="Email" type='email' className='form-item'></input>

@@ -9,6 +9,7 @@
     width: 35rem;
     border-radius: 25px;
     border: 5px solid #33658A;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, .3);
     height: auto;
     background-color: #C17817;
     display: flex;
@@ -51,4 +52,11 @@ button{
     color: white;
     font-size: larger;
     background-color: #86BBD8;
+}
+
+.form-header{
+    font-family: 'fuzzy-bold';
+    font-size: 2.5rem;
+    color: #2F4858;
+    margin-bottom: 10px;
 }
