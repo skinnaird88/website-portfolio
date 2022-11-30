@@ -28,16 +28,16 @@ jobs:
 workflows:
   version: 2.1
   build:
-    # jobs:
-    #   - test:
-    #     filters:
-    #       branches:
-    #         only:
-    #           - main
-    #           - develop
+    jobs:
+      - test:
+        filters:
+          branches:
+            only:
+              - main
+              - develop
       - deploy:
-          # requires:
-          #   - test
+          requires:
+            - test
           filters:
             branches:
               only: main
