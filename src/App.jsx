@@ -11,7 +11,6 @@ function App() {
   return (
     <div className="App">
       <NavBar/>
-      <h1>Hey hey hey</h1>
       <section id='header'>Stephen Kinnaird - React, Javascript and Spring Developer</section>
       <Picture/>
       <Bio/>
