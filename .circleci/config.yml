@@ -22,8 +22,6 @@ workflows:
   build:
     jobs:
       - deploy:
-          # requires:
-          #   - test
           filters:
             branches:
               only: main
