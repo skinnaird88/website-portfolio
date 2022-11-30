@@ -4,7 +4,7 @@ import Picture from './components/Picture'
 import Bio from './components/Bio'
 import Portfolio from './components/Portfolio'
 import Form from './components/Form'
-// comment
+
 function App() {
 
 
