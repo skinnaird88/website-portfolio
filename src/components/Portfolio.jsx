@@ -17,7 +17,7 @@ const Portfolio = () => {
       <div className='align-content'>
 
       <a href='https://github.com/skinnaird88/Habit-tracker-group-project' target='_blank'>
-        <img src='../../public/mindful-meals.png' className='project-icon'></img>
+        <img src='../../public/mindful-meals.png'></img>
         </a>
         <p className='project-label'>Habit Trakkerz</p>
       </div>
