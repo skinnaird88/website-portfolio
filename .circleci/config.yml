@@ -12,7 +12,7 @@ jobs:
       - run: npm install
       - run: npm run build
       - aws-s3/sync:
-          from: build
+          from: dist
           to: 's3://portfolio-website-stephen-kinnaird/'
           arguments: |
             --acl public-read \
