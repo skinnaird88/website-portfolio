@@ -2,11 +2,16 @@
     margin-top: 1.5rem;
     border-radius: 25px;
     border: 5px solid #C17817;
-    height: 75%;
-    width: 75%;
     
 }
 .picture-container{
     display: flex;
     justify-content: center;
+}
+
+@media screen and (max-width: 500px){
+    .profile-pic{
+        height: 75%;
+        width: 75%;
+    }
 }
