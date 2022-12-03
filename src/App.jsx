@@ -11,13 +11,14 @@ function App() {
   return (
     <div className="App">
       <NavBar/>
-      <section id='header'>Stephen Kinnaird - React, Javascript and Spring Developer</section>
+      <section id='header'>Stephen Kinnaird - React, Javascript and Java Developer</section>
       <Picture/>
       <Bio/>
       <Portfolio/>
       <Form/>
       <footer>
       <section id="signature">Stephen Kinnaird</section>
+      <img src='./sk-footer.png' className='photo'></img>
       </footer>
     </div>
   )

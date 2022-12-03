@@ -9,7 +9,7 @@
     justify-content: center;
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 600px){
     .profile-pic{
         height: 75%;
         width: 75%;

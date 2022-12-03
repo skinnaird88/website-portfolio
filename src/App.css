@@ -29,12 +29,28 @@ body{
 
 footer{
     background-color: #86BBD8;
-    height: 150px;
+    height: 100%;
     width: auto;
     margin-top: 2rem;
     margin-bottom: 0;
+    padding-bottom: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     box-shadow: 0 0 5px 2px rgba(0, 0, 0, .3);
+    border-radius: 25px;
+}
+
+.photo{
+    height: 15rem;
+    width: auto;
+    border: 5px solid #C17817;
+
+}
+
+
+@media screen and (max-width: 600px){
+    #header{
+        font-size: 1.5rem;
+    }
 }

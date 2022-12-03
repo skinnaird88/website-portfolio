@@ -30,6 +30,13 @@ img{
     width: auto;
 }
 
+@media screen and (max-width: 500px) {
+    nav{
+      float: none;
+
+    }
+  }
+
 /* colours:
 ocean blue: #33658A 
 sky blue: #86BBD8 
