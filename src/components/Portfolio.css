@@ -44,7 +44,6 @@ h2{
 
 @media screen and (max-width: 1400px){
     .project-icon{
-        /* height: 80%; */
         margin-bottom: 0%;
     }
     .portfolio-grid{
@@ -59,5 +58,17 @@ h2{
         flex-direction: column;
         align-items: center;
 
+    }
+}
+
+@media screen and (max-width: 600px){
+    .project-icon{
+        height: 15rem;
+    }
+    .project-label{
+        height: fit-content;
+    }
+    li{
+        font-size: 1.3rem;
     }
 }
