@@ -30,12 +30,33 @@ img{
     width: auto;
 }
 
+#cv{
+    height: 70px;
+    width: auto;
+}
+
 @media screen and (max-width: 500px) {
     nav{
       float: none;
-
     }
   }
+
+@media screen and (max-width: 300px){
+    #github{
+        height: 50px;
+        width: auto;
+    
+    }
+    #linkedin{
+        height: 50px;
+        width: auto;
+    }
+    
+    #cv{
+        height: 50px;
+        width: auto;
+    }
+}
 
 /* colours:
 ocean blue: #33658A 
