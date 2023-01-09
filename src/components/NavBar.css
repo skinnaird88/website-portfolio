@@ -35,26 +35,74 @@ img{
     width: auto;
 }
 
+.toggle-button{
+    position: relative;
+    left: 45%;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 3.5rem;
+    height: 40px;
+    padding-top: 2.5rem;
+}
+
+.bar {
+    height: 7px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    /* margin: 5px; */
+}
+
+.dropdown{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    padding-top: 2rem;
+
+}
+
+.dropdown a{
+    font-family: 'fuzzy';
+    font-size: 1.5rem;
+    padding: 2px;
+    color: white;
+}
+
+.dropdown button{
+    margin-bottom: 1.5rem;
+}
+
 @media screen and (max-width: 500px) {
     nav{
-      float: none;
+    flex-direction: column;
+    align-items: flex-start;
     }
   }
 
-@media screen and (max-width: 300px){
+@media screen and (max-width: 500px){
     #github{
-        height: 50px;
-        width: auto;
+        /* height: 50px;
+        width: auto; */
+        display: none;
     
     }
     #linkedin{
-        height: 50px;
-        width: auto;
+        /* height: 50px;
+        width: auto; */
+        display: none;
     }
     
     #cv{
-        height: 50px;
-        width: auto;
+        /* height: 50px;
+        width: auto; */
+        display: none;
+    }
+
+    .toggle-button{
+        display: flex;
     }
 }
 

@@ -62,7 +62,7 @@ h2{
 
 @media screen and (max-width: 800px){
     .project-icon{
-        height: 15rem;
+        height: 12rem;
     }
     .project-label{
         height: fit-content;
@@ -70,6 +70,6 @@ h2{
 
     }
     li{
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
 }
