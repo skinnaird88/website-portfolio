@@ -7,7 +7,7 @@ const Form = () => {
 
   const form = useRef();
 
-  const sendEmail = (e) => {
+  function sendEmail(e){
     e.preventDefault();
 
     emailjs.sendForm('service_mht1x7o', 'template_y3acv7e', form.current, '3o7zwsZbWjwinoxxw')
